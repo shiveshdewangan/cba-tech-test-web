@@ -5,7 +5,7 @@ Technology used - Java, Selenium, Cucumber, Maven and CircleCI
 ### There are two options to run this project.
 
 **Running locally using editors like IntelliJ Idea**
-- Clone the repo https://github.com/shiveshdewangan/cba-tech-test-web.git
+- `git clone https://github.com/shiveshdewangan/cba-tech-test-web.git`
 - Import the project as maven project on IntelliJ
 - Install all maven dependencies on pom.xml file
 - Go to **webtesting/src/test/java/TestRunner***
@@ -16,7 +16,7 @@ Technology used - Java, Selenium, Cucumber, Maven and CircleCI
 
 *Please make sure you have **Java** and **Maven** installed and configured on your system.*
 
-- Clone the repo https://github.com/shiveshdewangan/cba-tech-test-web.git
+- `git clone https://github.com/shiveshdewangan/cba-tech-test-web.git`
 - Open a Terminal window
 - `cd cba-tech-test-web`
 - `mvn clean test -DbrowserName=Chrome` for running it on Chrome browser
