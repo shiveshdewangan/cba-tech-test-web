@@ -27,7 +27,6 @@ public class BattleFieldPage extends BasePage {
 
     public String getWelcomeText() {
         return welcomeText.getText();
-        // Choose your battle field dews1234
     }
 
     public boolean isBusLinkDisplayed() {

@@ -24,7 +24,6 @@ public class HomePage extends BasePage {
 
     public String getWarriorNameHeaderText() {
         return worriorNameHeaderText.getText();
-        // Tell me your warrior name
     }
 
     public void typeWarriorName(String warrior_name) {

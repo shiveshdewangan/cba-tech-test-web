@@ -9,16 +9,18 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import Utilities.ConfigFileReader;
 
 public class Steps {
 
-    private static final String AUT_URL = "https://responsivefight.herokuapp.com/";
-    private static final String USER_NAME = "dews1234";
     private static WebDriver driver;
     public BattleFieldPage battleFieldPage;
     public GamePage gamePage;
     public HomePage homePage;
     public LeaderBoardPage leaderBoardPage;
+    private ConfigFileReader config = new ConfigFileReader();
+    private final String AUT_URL = config.getProperty("aut_url");
+    private final String USER_NAME = config.getProperty("username");
 
     public Steps() {
         this.driver = Hooks.getDriver();
