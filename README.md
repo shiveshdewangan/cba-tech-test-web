@@ -23,10 +23,24 @@ Technology used - Java, Selenium, Cucumber, Maven and CircleCI
 - `mvn clean test -DbrowserName=Edge` for running it on MS Edge browser
 - `mvn clean test -DbrowserName=Firefox` for running it on Firefox browser
 
-##### Note: After test execution, please look inside `**ui-automation/reports**` for HTML Reports.
+##### Note: After test execution, please look inside `**/reports**` for HTML Reports.
 
 #### Running on Circle CI
-I have added CI Steps under `.circleci/config.yml` which enables us to run it on **Circle CI Pipeline**.
-To run in CI - https://app.circleci.com/pipelines/github/shiveshdewangan/cba-tech-test-web
+- I have added CI Steps under `.circleci/config.yml` which enables us to run it on **Circle CI Pipeline**.
+- To run in CI - https://app.circleci.com/pipelines/github/shiveshdewangan/cba-tech-test-web
 
-#### Bugs found and My Notes
+#### Issues and Bugs
+For issues or bugs please check within issues folder
+
+#### Achievements
+- :white_check_mark: Cross Browser Testing
+- :white_check_mark: BDD and Page Object Model
+- :white_check_mark: Assertions for both verification and validations wherever necessary
+- :white_check_mark: Code modularity/reuse of methods is achieved
+- :white_check_mark: Right Setup and teardown of tests
+- :white_check_mark: Capture screenshots when test fails
+- :white_check_mark: Cucumber Maven HTML Reporting
+- :white_check_mark: User (dewshiv) with more than 4000 points created on the leaderboard
+
+#### Suggestions for further improvements
+- Multiple test suites can be executed in a batch in parallel using tools like Selenium Grid, TestNG Browserstack, Azure Devops or AWS.
