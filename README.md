@@ -8,7 +8,7 @@ Technology used - Java, Selenium, Cucumber, Maven and CircleCI
 - `git clone https://github.com/shiveshdewangan/cba-tech-test-web.git`
 - Import the project as maven project on IntelliJ
 - Install all maven dependencies on pom.xml file
-- Go to **webtesting/src/test/java/TestRunner***
+- Go to **/src/test/java/TestRunner**
 - Locate **Runner.java** file within **TestRunner** folder
 - Right click on the **Runner.java** file and Run it
 
@@ -23,7 +23,7 @@ Technology used - Java, Selenium, Cucumber, Maven and CircleCI
 - `mvn clean test -DbrowserName=Edge` for running it on MS Edge browser
 - `mvn clean test -DbrowserName=Firefox` for running it on Firefox browser
 
-##### Note: After test execution, please look inside `**/reports**` for HTML Reports.
+##### Note: After test execution, please look inside **`/reports`** folder to view the `HTML Reports`.
 
 #### Running on Circle CI
 - I have added CI Steps under `.circleci/config.yml` which enables us to run it on **Circle CI Pipeline**.
